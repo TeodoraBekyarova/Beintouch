@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:background="@drawable/gradient_1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:text="@string/text"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNick"
+        android:hint="@string/string_nickname"
+        android:inputType="textPersonName"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPhone"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEmail"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editStreet"
+        android:hint="@string/street"
+        android:inputType="text"
+        android:importantForAutofill="no"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnAdd"
+        android:text="@string/add"
+        ></Button>
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:text="@string/list"
+        android:textColor="@color/white"
+        android:textSize="20sp" />
+
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/simpleList"></ListView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnBack"
+        android:text="@string/back"
+        ></Button>
+</TableLayout>

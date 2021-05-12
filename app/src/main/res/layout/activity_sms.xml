@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="30dp"
+    android:background="@drawable/gradient_2"
+    android:layout_gravity="center"
+    tools:context=".sms">
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:fontFamily="@font/lobster"
+        android:layout_marginTop="80dp"
+        android:layout_marginBottom="20dp"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:text="@string/message" />
+
+    <EditText
+        android:id="@+id/phoneNumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/white"
+        android:hint="@string/phone"
+        android:inputType="phone"></EditText>
+
+    <EditText
+        android:id="@+id/message"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:textColor="@color/white"
+        android:layout_margin="8dp"
+        android:hint="@string/message"
+        android:inputType="textLongMessage"></EditText>
+
+    <Button
+        android:id="@+id/btnSend"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/send"
+        android:backgroundTint="@color/blue"
+        android:layout_gravity="center_horizontal"></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:layout_marginTop="250dp"
+        android:id="@+id/btnBack"
+        android:text="@string/back"
+        ></Button>
+
+</LinearLayout>

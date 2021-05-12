@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Teodora</string>
+    <string name="logo">
+        <br>Be in</br>
+        <br>touch</br>
+    </string>
+    <string name="contacts">Добави контакт</string>
+    <string name="contact">Контакт</string>
+    <string name="list">Списък с контакти</string>
+    <string name="text">Създай нов контанкт</string>
+    <string name="sms">Изпрати съобщение</string>
+    <string name="name">Име</string>
+    <string name="string_nickname">Прякор</string>
+    <string name="phone">Телефон</string>
+    <string name="e_mail">E-mail</string>
+    <string name="street">Улица</string>
+    <string name="add">Добави</string>
+    <string name="back">начална страница</string>
+    <string name="update">Обнови</string>
+    <string name="delete">Изтрии</string>
+    <string name="message">Изпрати съобщение</string>
+    <string name="send">Изпрати</string>
+</resources>

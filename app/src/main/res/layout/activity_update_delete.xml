@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="30dp"
+    android:layout_gravity="center|top"
+    android:background="@drawable/gradient_1">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/lobster"
+        android:gravity="center"
+        android:text="@string/contact"
+        android:textColor="@color/blue"
+        android:textSize="30sp" />
+
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editName"
+        android:hint="@string/name"
+        android:inputType="textPersonName"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editNick"
+        android:hint="@string/string_nickname"
+        android:inputType="textPersonName"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editPhone"
+        android:hint="@string/phone"
+        android:inputType="phone"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editEmail"
+        android:hint="@string/e_mail"
+        android:inputType="textEmailAddress"
+        android:autofillHints=""></EditText>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/editStreet"
+        android:hint="@string/street"
+        android:inputType="text"
+        android:importantForAutofill="no"></EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnUpdate"
+        android:text="@string/update"
+        ></Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/blue"
+        android:id="@+id/btnDelete"
+        android:text="@string/delete"
+        ></Button>
+
+</TableLayout>
